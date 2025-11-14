@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
 
-const SOCKET_SERVER_URL = "https://wavelength-thai-server.onrender.com/"; // **สำคัญ: เปลี่ยนเป็น URL ของ Backend คุณ**
+const SOCKET_SERVER_URL = "https://wavelength-thai-server.onrender.com"; // **สำคัญ: เปลี่ยนเป็น URL ของ Backend คุณ**
 
 // --- SVG Helper Functions ---
 // แปลงค่า 0-100 เป็นองศา 0-180
